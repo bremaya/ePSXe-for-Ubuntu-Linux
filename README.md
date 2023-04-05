@@ -13,7 +13,7 @@ curl -L -o /tmp/epsxe_online_installer.sh https://github.com/bremaya/ePSXe-for-U
 Easy uninstall:
 Copy this text and paste in a terminal >>
 
-curl -L -o /tmp/epsxe_online_installer.sh https://github.com/bremaya/ePSXe-for-Ubuntu-Linux/raw/main/epsxe_online_uninstaller.sh ; chmod +x /tmp/epsxe_online_uninstaller.sh ; /tmp/./epsxe_online_uninstaller.sh
+curl -L -o /tmp/epsxe_online_uninstaller.sh https://github.com/bremaya/ePSXe-for-Ubuntu-Linux/raw/main/epsxe_online_uninstaller.sh ; chmod +x /tmp/epsxe_online_uninstaller.sh ; /tmp/./epsxe_online_uninstaller.sh
 
 Installers in releases section.
 
