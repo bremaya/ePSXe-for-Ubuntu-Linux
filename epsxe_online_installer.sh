@@ -1,5 +1,6 @@
 #!/bin/bash
 #Script created by Bremaya <bremaya@gmail.com> https://github.com/bremaya
+sudo apt install curl
 if apt-cache show epsxe 2>/dev/null|grep -q '^Package: epsxe$'
   then
    sudo apt remove -y epsxe
