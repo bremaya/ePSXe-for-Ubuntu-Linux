@@ -1,12 +1,11 @@
 #!/bin/bash
 #Script created by Bremaya <bremaya@gmail.com> https://github.com/bremaya
-sudo apt install curl
 if apt-cache show epsxe 2>/dev/null|grep -q '^Package: epsxe$'
   then
    sudo apt remove -y epsxe
 fi
 rm -rfv /tmp/ePSXe ; mkdir /tmp/ePSXe ; cd /tmp/ePSXe/
-curl -L -o ePSXe_2.0.5_Linux_Full_Package_by_bremaya.tar.xz https://github.com/bremaya/ePSXe-for-Ubuntu-Linux/releases/download/ePSXeForUbuntu/ePSXe_2.0.5_Linux_Full_Package_by_bremaya.tar.xz ; tar -xvf ePSXe_2.0.5_Linux_Full_Package_by_bremaya.tar.xz
+wget -L -o ePSXe_2.0.5_Linux_Full_Package_by_bremaya.tar.xz https://github.com/bremaya/ePSXe-for-Ubuntu-Linux/releases/download/ePSXeForUbuntu/ePSXe_2.0.5_Linux_Full_Package_by_bremaya.tar.xz ; tar -xvf ePSXe_2.0.5_Linux_Full_Package_by_bremaya.tar.xz
 tar -xvf debs.tar.xz ; tar -xvf libs.tar.xz ; tar -xvf ePSXe_linux.tar.xz
 ARC=$(uname -m)
 if [ $ARC = x86_64 ]
