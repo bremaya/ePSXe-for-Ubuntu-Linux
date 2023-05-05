@@ -15,7 +15,7 @@ if [ $ARC = x86_64 ]
    sudo rm -fv /usr/bin/epsxe /usr/bin/epsxe_x86 /usr/share/icons/epsxe.svg /usr/share/applications/epsxe.desktop
    sudo rm -rfv /usr/share/doc/epsxe 
    read -n 1 -s -r -p "Uninstallation successfull! Press any key to exit...
-   "
+"
   else
    #ePSXe Libs x86 Remove
    sudo dpkg -P libncurses5 libsdl1.2debian libsdl-ttf2.0-0 libgssapi3-heimdal libssl1.0.0
@@ -24,5 +24,5 @@ if [ $ARC = x86_64 ]
    sudo rm -fv /usr/bin/epsxe /usr/share/icons/epsxe.svg /usr/share/applications/epsxe.desktop
    sudo rm -rfv /usr/share/doc/epsxe 
    read -n 1 -s -r -p "Uninstallation successfull! Press any key to exit...
-   "
+"
 fi
