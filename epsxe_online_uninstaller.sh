@@ -2,7 +2,7 @@
 #Uninstaller created by Bremaya <bremaya@gmail.com> https://github.com/bremaya
 if apt-cache show epsxe 2>/dev/null|grep -q '^Package: epsxe$'
   then
-   sudo apt remove -y epsxe
+   sudo dpkg -P epsxe
 fi
 rm -rfv /tmp/ePSXe
 ARC=$(uname -m)
