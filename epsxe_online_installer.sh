@@ -22,7 +22,6 @@ if [ $ARC = x86_64 ]
    sudo rm -rfv /tmp/ePSXe
    read -n 1 -s -r -p "Installation successfull! Press any key to exit...
    "
-   exit
   else
    sudo apt update
 #ePSXe Libs x86 Install
@@ -37,5 +36,4 @@ if [ $ARC = x86_64 ]
    sudo rm -rfv /tmp/ePSXe
    read -n 1 -s -r -p "Installation successfull! Press any key to exit...
    "
-   exit
 fi
