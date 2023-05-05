@@ -5,7 +5,7 @@ if apt-cache show epsxe 2>/dev/null|grep -q '^Package: epsxe$'
    sudo apt remove -y epsxe
 fi
 rm -rfv /tmp/ePSXe ; mkdir /tmp/ePSXe ; cd /tmp/ePSXe/
-wget -L -o ePSXe_2.0.5_Linux_Full_Package_by_bremaya.tar.xz https://github.com/bremaya/ePSXe-for-Ubuntu-Linux/releases/download/ePSXeForUbuntu/ePSXe_2.0.5_Linux_Full_Package_by_bremaya.tar.xz ; tar -xvf ePSXe_2.0.5_Linux_Full_Package_by_bremaya.tar.xz
+wget -O ePSXe_2.0.5_Linux_Full_Package_by_bremaya.tar.xz https://github.com/bremaya/ePSXe-for-Ubuntu-Linux/releases/download/ePSXeForUbuntu/ePSXe_2.0.5_Linux_Full_Package_by_bremaya.tar.xz ; tar -xvf ePSXe_2.0.5_Linux_Full_Package_by_bremaya.tar.xz
 tar -xvf debs.tar.xz ; tar -xvf libs.tar.xz ; tar -xvf ePSXe_linux.tar.xz
 ARC=$(uname -m)
 if [ $ARC = x86_64 ]
@@ -20,7 +20,8 @@ if [ $ARC = x86_64 ]
    sudo cp -rfv docs /usr/share/doc
    sudo mv -fv /usr/share/doc/docs /usr/share/doc/epsxe
    sudo rm -rfv /tmp/ePSXe
-   read -n 1 -s -r -p "Installation successfull! Press any key to exit..."
+   read -n 1 -s -r -p "Installation successfull! Press any key to exit...
+   "
    exit
   else
    sudo apt update
@@ -34,6 +35,7 @@ if [ $ARC = x86_64 ]
    sudo cp -rfv docs /usr/share/doc
    sudo mv -fv /usr/share/doc/docs /usr/share/doc/epsxe
    sudo rm -rfv /tmp/ePSXe
-   read -n 1 -s -r -p "Installation successfull! Press any key to exit..."
+   read -n 1 -s -r -p "Installation successfull! Press any key to exit...
+   "
    exit
 fi
