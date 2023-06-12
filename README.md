@@ -7,14 +7,14 @@ plugin system.
 
 Easy install:
 Copy this text and paste in a terminal >>
-
-`wget -O /tmp/epsxe_online_installer.sh https://github.com/bremaya/ePSXe-for-Ubuntu-Linux/raw/main/epsxe_online_installer.sh ; source /tmp/epsxe_online_installer.sh ; rm /tmp/epsxe_online_installer.sh`
-
+```
+wget -O /tmp/epsxe_online_installer.sh https://github.com/bremaya/ePSXe-for-Ubuntu-Linux/raw/main/epsxe_online_installer.sh ; source /tmp/epsxe_online_installer.sh ; rm /tmp/epsxe_online_installer.sh
+```
 Easy uninstall:
 Copy this text and paste in a terminal >>
-
-`wget -O /tmp/epsxe_online_uninstaller.sh https://github.com/bremaya/ePSXe-for-Ubuntu-Linux/raw/main/epsxe_online_uninstaller.sh ; source /tmp/epsxe_online_uninstaller.sh ; rm /tmp/epsxe_online_uninstaller.sh`
-
+```
+wget -O /tmp/epsxe_online_uninstaller.sh https://github.com/bremaya/ePSXe-for-Ubuntu-Linux/raw/main/epsxe_online_uninstaller.sh ; source /tmp/epsxe_online_uninstaller.sh ; rm /tmp/epsxe_online_uninstaller.sh
+```
 Installers in releases section.
 
 This is a personal project, and I'm not related with ePSXe Team (https://www.epsxe.com/).
