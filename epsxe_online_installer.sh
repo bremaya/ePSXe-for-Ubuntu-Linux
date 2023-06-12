@@ -20,7 +20,7 @@ if [ $ARC = x86_64 ]
    sudo cp -rfv docs /usr/share/doc
    sudo mv -fv /usr/share/doc/docs /usr/share/doc/epsxe
    sudo rm -rfv /tmp/ePSXe
-   echo -en "Installation successfull! Press any key to exit...\n"
+   echo -en "Installation successfull!\n"
   else
    sudo apt update
 #ePSXe Libs x86 Install
@@ -33,5 +33,5 @@ if [ $ARC = x86_64 ]
    sudo cp -rfv docs /usr/share/doc
    sudo mv -fv /usr/share/doc/docs /usr/share/doc/epsxe
    sudo rm -rfv /tmp/ePSXe
-   echo -en "Installation successfull! Press any key to exit...\n"
+   echo -en "Installation successfull!\n"
 fi
